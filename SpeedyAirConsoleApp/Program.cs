@@ -27,7 +27,7 @@ namespace SpeedyAirConsoleApp
 
             Console.WriteLine("User Story 2");
 
-            ReadOrderInfo orderInfo = new ReadOrderInfo(@"..\net6.0\Assets\coding-assigment-orders.json");
+            ReadOrderInfoFronJSON orderInfo = new ReadOrderInfoFronJSON(@"..\net6.0\Assets\coding-assigment-orders.json");
 
             var orderDetails = orderInfo.DeserializeJSONToOrderDetails();
 

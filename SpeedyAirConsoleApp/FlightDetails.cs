@@ -40,7 +40,6 @@ namespace SpeedyAirConsoleApp
             Capacity = capacity;
         }
 
-
         public override string ToString()
         {
             return $"Flight : {FlightId}, Departure : {Departure}, Arrival : {Arrival}, Day : {FlightScheduledDay}";

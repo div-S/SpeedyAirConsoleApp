@@ -8,11 +8,11 @@ using System.Threading.Tasks;
 
 namespace SpeedyAirConsoleApp
 {
-    public class ReadOrderInfo
+    public class ReadOrderInfoFronJSON
     {
         private readonly string oderDetailsFilePath;
 
-        public ReadOrderInfo(string orderFilePath)
+        public ReadOrderInfoFronJSON(string orderFilePath)
         {
             oderDetailsFilePath = orderFilePath;
         }
